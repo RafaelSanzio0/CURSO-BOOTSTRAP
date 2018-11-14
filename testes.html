@@ -1,0 +1,381 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/testes.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- com este cara, o tamanho da imagem muda de acordo com dispositivo-->
+
+    </head>  
+    
+    
+        <body>
+            
+            
+            <!-- MENU-->
+            
+            
+            <header>
+                <nav class="navbar navbar-default" id="nav">
+                    <div class="container">
+
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-menu" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Titulo ou imagem principal</a>
+                        </div>
+
+
+                        <div class="collapse navbar-collapse" id="collapse-menu">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                                <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+                                <li><a href="#depoimentos">Depoimentos</a></li>
+                                <li><a href="#video">Vídeo</a></li>
+                                 <li><a href="#contato">Contato</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+            </nav>
+                
+                <!--
+                <div class="container topCasaFina-bannerWrapper">
+                <div class= "topCasaFina-banner">
+                    <h1>TESTANDOOOOOO</h1>
+                    <p>o teste foi feito</p>
+                    <button class="btn btn-danger btn-lg">contate-nos</button>
+                </div>
+                </div>
+                -->
+                 
+         </header>
+            
+            
+             <!-- CARROSEL-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Fotos -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/depoimentos/depo1.png">
+              <div class="carousel-caption">
+                  <h3>Gostei pra krl</h3>
+                    <p>MLK SAO BOMS DEMAIS</p>
+
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/depoimentos/depo2.png">
+              <div class="carousel-caption">
+                  <h3>Gostei pra krl</h3>
+                    <p>MLK SAO BOMS DEMAIS</p>
+
+              </div>
+            </div>
+
+              <div class="item">
+            <img src="img/depoimentos/depo3.png">
+              <div class="carousel-caption">
+                  <h3>Gostei pra krl</h3>
+                    <p>MLK SAO BOMS DEMAIS</p>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Botoes -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+            
+                                     
+            
+           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        <section id="sobre-nos" class="container">
+            <div class="row">
+
+            <h2>Sobre nós</h2>
+            <img class="img-responsive col-md-6" src="img/empresa.jpg"> <!-- Aqui usamos uma classe que deixa nossa img responsiva-->
+              
+                
+        <div class="panel-group col-md-6" id="painel-pai"> <!-- aqui dizemos quem é o painel controlador, assim passamos o data-parent para os titulos dos articles, com o comando data-parent, com isso, ao clicar em um artigo vc automaticamente fecha o outro-->
+            
+            <div class="panel panel-default"> <!-- invocamos um painel do boot-->
+                <div class="panel-heading">  <!-- este serve para o titulo-->
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#painel-pai">Desde 1935</h3> <!--com o data toggle e target conseguimos fazer o evento da frase aparecer somente ao clik-->
+                </div>
+                <div id="primeiro-paragrafo" class="collapse in">
+                    <div class="panel-body"><!-- e este serve para o corpo-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqcillum dolore eu fugiat nulla pari amet, consecidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  in voluptate velit esse cillum dolore eu fugiat nu amet, consecidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  in voluptate velit esse cillum dolore eu fugiat nuatur. Excepteu</p>
+                    </div>
+                </div>
+            </div>
+                
+                
+            <div class="panel panel-default">
+                <div class="panel-heading"> 
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#painel-pai">Desde 1935</h3>
+                </div>
+                <div id="segundo-paragrafo" class="collapse in">    
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consect amet, consecidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  in voluptate velit esse cillum dolore eu fugiat nuetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. u fu amet, consecidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  in voluptate velit esse cillum dolore eu fugiat nugiat nulla pariatur. Excepteu</p>
+                    </div>
+                </div>
+            </div>
+                
+                
+            <div class="panel panel-default"> 
+                <div class="panel-heading"> 
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#painel-pai">Desde 1935</h3>
+                </div>
+                <div id="terceiro-paragrafo" class="collapse in">
+                <div class="panel-body">
+                    <p>ALorem ie cillum dolore eu fug amet, consecidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  in voluptate velit esse cillum dolore eu fugiat nuiat nulla pariatur. Excepteu amet, consecidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  in voluptate velit esse cillum dolore eu fugiat nu desde...</p>
+                </div>
+                </div>
+             </div>
+            
+        </div> 
+        </div>   
+    </section>
+            
+
+        <div class="jumbotron">
+            <h2>Lorem ipsum dolor sit amet, consecidunt ut labore et dolore  aliqua. Ut enim ad minim veniam, quis</h2>
+            <p>Lorem ipsum dolor sit amet, consecidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu</p>
+        </div>
+                
+                
+                
+                
+        <section class="container">
+
+                <h2>Nossos Projetos</h2>
+            
+                <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <figure class="thumbnail">
+                    <img src="img/projetos/casa-castelo.png" alt="casa castelo">
+                    <figcaption class="caption">
+
+                    <h3>Casa Castelo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu</p>
+                    </figcaption>
+                    
+                </figure>
+            </div>
+                    
+             <div class="col-md-4 col-sm-6">
+            <figure class="thumbnail">
+                    <img src="img/projetos/casa-lago.png" alt="casa castelo">
+                    <figcaption class="caption">
+
+                    <h3>Casa Castelo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu</p>
+                    </figcaption>
+                    
+                </figure>
+            </div>
+             <div class="col-md-4 col-sm-6">
+            <figure class="thumbnail">
+                    <img src="img/projetos/mercado-marapira.png" alt="casa castelo">
+                    <figcaption class="caption">
+
+                    <h3>Casa Castelo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu</p>
+                    </figcaption>
+                    
+                </figure>
+            </div>
+                    
+             <div class="col-md-4 col-sm-6">
+            <figure class="thumbnail">
+                    <img src="img/projetos/palacio-dionisio.png" alt="casa castelo">
+                    <figcaption class="caption">
+
+                    <h3>Casa Castelo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu</p>
+                    </figcaption>
+                    
+                </figure>
+                    </div>
+                    
+                 <div class="col-md-4 col-sm-6">
+            <figure class="thumbnail">
+                    <img src="img/projetos/residencia-ludi.png" alt="casa castelo">
+                    <figcaption class="caption">
+
+                    <h3>Casa Castelo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu</p>
+                    </figcaption>
+                    
+                </figure>
+                </div>
+            
+                    
+                   </div>
+            </section>
+            
+            
+            <h3 class="titulo-depoimentos" id="depoimentos">Depoimento de Clientes</h3>
+            
+            
+   
+            
+            
+            <div class="container">
+                <div class="row">
+                <section id="video" class="col-sm-6">
+                <h2>Vídeo Institucional</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TeQfZoJy5TY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+                </section>
+                    </div>
+            </div>
+            
+            
+            <div class="container">
+                
+                  <h2 id="contato">Contato</h2>
+            <p>Entre em contato conosco</p>
+            
+    
+          
+                            <!--FORMULARIO-->
+
+           <section>
+
+                <form>
+
+                    <div class="grupo-radio">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="tipo-pessoa" value="fisica" checked>
+                                Pessoa física
+                            </label>
+                        </div>
+
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="tipo-pessoa" value="juridica">
+                                Pessoa jurídica
+                            </label>
+                        </div>
+                        <button type="button" class="btn btn-primary">Enviar</button>
+
+                    </div><!--
+
+                    --><select class="contato-select form-control" name="tipo-solicitacao">
+                        <option value="" disabled selected>Tipo de solicitação</option>
+                        <option value="casa">Casa</option>
+                        <option value="mansao">Mansão</option>
+                        <option value="castelo">Castelo</option>
+                    </select>
+                </form>
+        </section>
+            </div>
+            
+            
+            
+            <footer>
+        
+            <address>
+                
+                  <strong>Twitter, Inc.</strong><br>
+                  1355 Market Street, Suite 900<br>
+                  San Francisco, CA 94103<br>
+                  <abbr title="Phone">P:</abbr> (123) 456-7890
+                </address>
+
+            <address>
+                  <strong>Full Name</strong><br>
+                  <a href="mailto:#">first.last@example.com</a>
+            </address>
+                
+            </footer>
+        
+            
+            
+            
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+                crossorigin="anonymous"></script> <!-- Aqui importamos o arquivo do Jquery V.2.2.4-->
+        <script src="js/bootstrap.min.js"></script> <!-- importando o JS do Bootrasp-->
+            
+            
+            
+        <script>
+            
+            $('#collapse-navbar').on('show.bs.collapse', function(){
+                $('.topCasaFina-banner').css('transform','translate(-50%, 10%)');
+            });
+
+            
+            $('#collapse-navbar').on('hide.bs.collapse', function(){
+                $('.topCasaFina-banner').css('transform','translate(-50%, -50%)');
+            });;
+
+           
+                  
+        </script>
+            
+            
+            
+        </body>
+    
+
+
+
+</html>
